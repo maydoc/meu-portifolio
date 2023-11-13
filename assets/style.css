@@ -1,3 +1,4 @@
+/* Estilo geral do site */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Degrade do plano de fundo */
 body {
   background-image: linear-gradient(
     to left,
@@ -15,6 +17,7 @@ body {
   );
 }
 
+/* Estilo geral do cabeçalho */
 #header-container {
   display: flex;
   align-items: center;
@@ -23,18 +26,18 @@ body {
   height: 80px;
   width: 100%;
 }
-
+/* Cor dos títulos h1 do cabeçalho */
 #header-container h1 {
   color: white;
 }
-
+/* Estilo dos links */
 #nav-links {
   display: flex;
   gap: 30px;
   list-style: none;
   color: white;
 }
-
+/* Estilo do texto dos links */
 #nav-links a {
   display: flex;
   background-color: #415d6e;
@@ -47,11 +50,13 @@ body {
   color: white;
   transition: 1s ease;
 }
+/* Animação quando é passado o mouse no link */
 #nav-links a:hover {
   transition: 1s ease;
   background-color: #5f7c87;
 }
 
+/* Estilo geral do home inicial */
 #home-section {
   display: flex;
   justify-content: center;
@@ -74,13 +79,14 @@ body {
   font-size: 32px;
   font-weight: normal;
 }
+/* Estilo do caractere '|' piscante */
 .caracter::after { 
   content: '|';
   margin-left: 4px;
   opacity: 1.1;
   animation: caracterPiscando .55s infinite;
 }
-
+/* Animação com keyframes do caractere '|' piscante */
 @keyframes caracterPiscando {
   from {
       opacity: 1;
@@ -90,6 +96,7 @@ body {
   }
 }
 
+/* Estilo geral do Sobre Mim */
 #about-section {
   display: flex;
   justify-content: center;
@@ -97,7 +104,6 @@ body {
   height: 60vh;
   margin-top: 100px;
 }
-
 #about-container {
   display: flex;
   justify-content: center;
@@ -121,6 +127,7 @@ body {
   width: 50%;
 }
 
+/* Estilo geral da seção de Formações */
 #formation-section {
   display: flex;
   justify-content: center;
@@ -146,6 +153,7 @@ body {
   width: 50%;
 }
 
+/* Estilo geral da seção do Meu Portifólio */
 #portfolio-section {
   display: flex;
   justify-content: center;
@@ -168,7 +176,6 @@ body {
   color: white;
   font-size: 30px;
 }
-
 #portfolio-container a {
   color: white;
   text-decoration: none;
@@ -177,6 +184,7 @@ body {
   padding: 50px;
 }
 
+/* Estilo Geral da seção de Contato */
 #contact-section {
   display: flex;
   justify-content: center;
@@ -196,6 +204,7 @@ body {
   font-size: 30px;
 }
 
+/* Estilo do formulário e dos input */
 form {
   display: flex;
   flex-direction: column;
@@ -223,6 +232,7 @@ form button {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
 }
 
+/* Estilo geral do rodapé */
 footer {
   background-color: #021725;
   bottom: 0;
@@ -240,16 +250,17 @@ footer {
   font-size: 30px;
   color: white;
 }
+/* Tamanho dos ícones de redes sociais */
 footer ion-icon {
   width: 40px;
   height: 40px;
   color: white;
 }
 
+/* Estilo e Animação do menu Hamburger pra mobile */
 #hamburguer {
   display: none;
 }
-
 #hamburguer span {
   display: block;
   width: 28px;
