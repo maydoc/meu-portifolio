@@ -15,14 +15,17 @@
   <body>
     <header>
       <nav id="header-container">
+        <!-- Cabeçalho do site -->
         <h1>Mayron P.</h1>
         <ul id="nav-links">
+          <!-- Links internos de sobre mim, formações... -->
           <li><a href="#about">Sobre Mim</a></li>
           <li><a href="#formation">Formações</a></li>
           <li><a href="#portfolio">Portifólio</a></li>
           <li><a href="#contact">Contato</a></li>
         </ul>
         <div id="hamburguer">
+          <!-- Div de menu hamburger, para mobile -->
           <span></span>
           <span></span>
           <span></span>
@@ -31,7 +34,9 @@
     </header>
     <main>
       <section>
+        <!-- Seções de conteúdo -->
         <div id="home-section">
+          <!-- div de exibição incial -->
           <div id="home-container">
             <h1>
               Bem-vindo!
@@ -45,6 +50,7 @@
           </div>
         </div>
         <div id="about-section" style="display: none;">
+          <!-- Div Sobre Mim -->
           <div id="about-container">
             <h1>Sobre mim</h1> <br/>
             <h2>Mayron Pereira da Luz<br/>Backend Developer</h2> <br/>
@@ -63,6 +69,7 @@
           </div>
         </div>
         <div id="formation-section" style="display: none">
+          <!-- Div sobre formações, habilidades e idiomas -->
           <div id="formation-container">
             <h1>Minha Formação</h1>
             <br/>
@@ -89,15 +96,18 @@
           </div>
         </div>
         <div id="portfolio-section" style="display: none;">
+          <!-- Div do meu portifolio de projetos -->
           <h1>Meu Portifólio</h1>
           <div id="portfolio-container">
             <a target="_blank" href="https://github.com/maydoc/Juros_Previsto">
+              <!-- Link clicável de redirecionamento do projeto -->
               <div id="juros-previsto">
                 <h1>Juros Previsto</h1>
                 <p>Programa para cálculo de juros por período</p>
               </div>
             </a>
             <a target="_blank" href="https://github.com/maydoc/Porcentagem">
+              <!-- Link clicável de redirecionamento do projeto -->
               <div id="porcentagem">
                 <h1>Porcentagem</h1>
                 <p>Programa de cálculo de diferencial de porcentagem</p>
@@ -106,9 +116,11 @@
           </div>
         </div>
         <div id="contact-section" style="display: none">
+          <!-- Div de contato -->
           <div id="contact-container">
             <h1>Entre em Contato</h1>
             <form action="#" method="get">
+              <!-- Formulário com campos obrigatórios de contato -->
               <input type="text" placeholder="Nome" name="name" required />
               <input type="email" placeholder="E-mail" name="email" required />
               <textarea name="message" placeholder="Mensagem ..."></textarea>
@@ -119,7 +131,9 @@
       </section>
     </main>
     <footer>
+      <!-- Rodapé da página -->
       <div id="social-links">
+        <!-- Links de rede sociais com hiperlink -->
         <a target="_blank" href="https://github.com/maydoc">
           <ion-icon name="logo-github"></ion-icon>
         </a>
@@ -131,6 +145,7 @@
         </a>
       </div>
     </footer>
+    <!-- Atribuição do script principal e do script de ícones das redes sociais -->
     <script src="assets/script.js"></script>
     <script
       type="module"
